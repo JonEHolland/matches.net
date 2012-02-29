@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Matches.NET</id>
+    <version>1.0.2</version>
+    <authors>Max Schmeling</authors>
+    <owners>Gray Hills Software, LLC</owners>
+    <licenseUrl>http://www.microsoft.com/opensource/licenses.mspx#Ms-PL</licenseUrl>
+    <projectUrl>http://www.grayhills.com/products-services/matches-net/</projectUrl>
+    <iconUrl>http://maxschmeling.me/match_stick.gif</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>An open source library for interacting with Campfire.</description>
+    <tags>37signals Campfire Chat</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\GrayHills.Matches\bin\Release\GrayHills.Matches.dll" target="lib"/>
+    <file src="..\GrayHills.Matches\bin\Release\GrayHills.Matches.pdb" target="lib"/>
+    <file src="..\GrayHills.Matches\bin\Release\GrayHills.Matches.XML" target="lib"/>
+  </files>
+</package>

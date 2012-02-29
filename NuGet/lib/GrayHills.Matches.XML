@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GrayHills.Matches</name>
+    </assembly>
+    <members>
+        <member name="T:GrayHills.Matches.CampfireCredentials">
+            <summary>
+             Encapsulates credentials for authenticating with Campfire.
+            </summary>
+        </member>
+        <member name="M:GrayHills.Matches.CampfireCredentials.#ctor(System.String)">
+            <summary>
+             Initializes Campfire credentials using a user's API token.
+            </summary>
+            <param name="apiToken">An API token provided by Campfire.</param>
+        </member>
+        <member name="M:GrayHills.Matches.CampfireCredentials.#ctor(System.String,System.String)">
+            <summary>
+             Initializes Campfire credentials using a user's username and password.
+            </summary>
+            <param name="username">The user's 37signals username.</param>
+            <param name="password">The user's 37signals password.</param>
+            <remarks>
+             It is recommended that you only use this constructor when attempting to retrieve the
+             user's API token. The API token is a much more secure way to authenticate with the API.
+            </remarks>
+        </member>
+        <member name="M:GrayHills.Matches.Site.GetApiToken">
+            <summary>
+            Gets the user's API token using the current credentials.
+            </summary>
+            <returns>The API token.</returns>
+        </member>
+    </members>
+</doc>
