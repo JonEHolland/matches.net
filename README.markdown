@@ -1,4 +1,5 @@
-* Matches.NET
+Matches.NET
+===========
 
 Matches.NET is an open source Campfire API wrapper.
 
